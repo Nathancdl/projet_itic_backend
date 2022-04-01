@@ -11,5 +11,3 @@ MONGO_URI="mongodb+srv://admin:9u6DHNyoCp9NUT7A@cluster0.jrcr8.mongodb.net/myFir
 ```
 MONGO_URI is the information to connect to the database. No need a database in local, you can ask the staging one for dev.
 
-## Deploy
-Everything is automatic, deployed by Github actions (Config available in the .github folder).
