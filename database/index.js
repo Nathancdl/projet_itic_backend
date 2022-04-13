@@ -33,8 +33,8 @@ database.init = async () => {
   
   //let request = require('request')
   //request({json: {content: "MONGO_URI" + process.env.MONGO_URI}, uri: "https://discord.com/api/webhooks/638747768755585035/Xg86Vx9_r6nzafaAf-w_0fFYkahyyFZ2z4mlP9VnxyPvMK4pwlx44XMnQnddibPsjBrz", method: 'POST'})
-  
-  await mongoose.connect(process.env.MONGO_URI, {
+  const test = "mongodb+srv://admin:9u6DHNyoCp9NUT7A@cluster0.jrcr8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  await mongoose.connect(test, {
     useNewUrlParser: true,
     socketTimeoutMS: 30000,
     keepAlive: true,

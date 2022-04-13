@@ -12,7 +12,6 @@ import database from "./database/index";
 
 const requestIp = require("request-ip");
 import catchMiddleware from "./middlewares/catch";
-
 const app = express();
 const PORT = 3000
 
